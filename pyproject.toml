@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dlai-langchain-short-courses"
+version = "0.1.0"
+description = "DeepLearning關於LangChain的短課程"
+authors = ["Kevin <kevinjyh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.1.8"
+python-dotenv = "^1.0.1"
+openai = "^1.12.0"
+pydantic = "^2.6.1"
+requests = "^2.31.0"
+wikipedia = "^1.4.0"
+panel = "^1.3.8"
+param = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
